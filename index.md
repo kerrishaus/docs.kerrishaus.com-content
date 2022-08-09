@@ -1,0 +1,3 @@
+# Kerris Haus Wiki
+
+Hello!
