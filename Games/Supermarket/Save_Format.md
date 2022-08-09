@@ -10,7 +10,6 @@ JSON format.
   "version": 1,
   "shop": {
     "type": 1,
-    "reputation": 0,
     "money": 0,
     "maxCustomers": 0,
     "timeUntilNextCustomer": 0,
@@ -35,6 +34,11 @@ JSON format.
       {
         "reputation": 0,
         "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
           "x": 0,
           "y": 0,
           "z": 0
@@ -66,6 +70,11 @@ JSON format.
       "y": 0,
       "z": 0
     },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
     "carriedItems": [
       {
         "itemType": {},
@@ -79,6 +88,11 @@ JSON format.
   },
   "employees": {
     "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
@@ -99,7 +113,6 @@ version n = 1
 shop
   type n = 1
 
-  reputation n = 0
   money n = 0
 
   maxCustomers n = 0
@@ -125,6 +138,10 @@ shop
       x n = 0
       y n = 0
       z n = 0
+    rotation
+      x n = 0
+      y n = 0
+      z n = 0
     carriedItems[]
       itemType = tomato
     actions[]
@@ -142,6 +159,10 @@ player
     x n = 0
     y n = 0
     z n = 0
+  rotation
+    x n = 0
+    y n = 0
+    z n = 0
   carriedItems[]
     itemType
     position
@@ -151,6 +172,10 @@ player
 
 employees
   position
+    x n = 0
+    y n = 0
+    z n = 0
+  rotation
     x n = 0
     y n = 0
     z n = 0
