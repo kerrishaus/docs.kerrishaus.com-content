@@ -12,6 +12,14 @@ JSON format.
     "type": 1,
     "reputation": 0,
     "money": 0,
+    "maxCustomers": 0,
+    "timeUntilNextCustomer": 0,
+    "timeSinceLastCustomer": 0,
+    "minTimeUntilNextCustomer": 0,
+    "maxTimeUntilNextCustomer": 0,
+    "lifeSales": 0,
+    "lifeCustomers": 0,
+    "lifeReputation": 0,
     "containers": [
       {
         "itemType": "tomato",
@@ -90,8 +98,20 @@ version n = 1
 
 shop
   type n = 1
+
   reputation n = 0
   money n = 0
+
+  maxCustomers n = 0
+  timeUntilNextCustomer n = 0
+  timeSinceLastCustomer n = 0
+  minTimeUntilNextCustomer n = 0
+  maxTimeUntilNextCustomer n = 0
+
+  lifeSales n = 0
+  lifeCustomers n = 0
+  lifeReputation n = 0
+
   containers[]
     itemType = tomato
     position
