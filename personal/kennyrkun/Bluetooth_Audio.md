@@ -41,12 +41,15 @@ RN-52 Related Links
 Similar products:
 - https://www.sparkfun.com/products/retired/11927
 - https://www.sparkfun.com/products/14923 (bluetooth IoT SoC ?)
+- https://www.sparkfun.com/products/19475 (supports Apple iAP but is very expensive)
 
 # nRF52840
 
 The nRF52840 is a small and powerful Bluetooth module from Nordic Semiconductor. SparkFun has a wonderful looking development board for this chip.
 
 https://www.sparkfun.com/products/15025
+
+Though I can't tell if this is well suited for audio.
 
 # Other resources
 - https://www.youtube.com/watch?v=afGxMfy7_0A
