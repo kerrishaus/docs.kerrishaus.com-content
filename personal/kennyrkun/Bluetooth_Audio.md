@@ -1,12 +1,32 @@
 # Bluetooth Audio
 
-I would like to create a small, simple device to stream bi-directional audio to a smartphone (iPhone specifically, for now). I'm looking to use Arduino or RaspberryPi microcontrollers to accomplish this.
+Typically, when I'm out and about with my boys either on foot or in a vehicle, we use either phones or analog radios to communicate. In general, this works fine. But there are some big disadvantages to both cases, and so I'd like to develop a solution that covers most of (if not even all) of the drawbacks to using these devices.
 
-The goal of the project is to stream audio from the phone to a speaker on the device, and stream audio from a microphone back to the phone.
+## Pros and Cons of each
 
-The general consensus that I've found for these goals is: just give up.
+### Phone Calls
 
-Apparently streaming audio just one way through Bluetooth is not a trivial endeavour.
+#### Phone Call Cons
+- Sound quality is quite poor
+- Difficult to add multiple recipients
+- Quick communication is difficult, because recipients must answer calls manually.
+
+#### Phone Call Pros
+- Nearly unlimited range
+- Very simple
+
+### VoIP software
+
+#### VoIP Pros
+- Nearly unlimited range
+- Generally good sound quality
+- Extensibility, like messages, private calls, specific user muting, music, etc
+
+#### VoIP Cons
+- All users are required to download the app and setup an account
+- Difficult to quickly communicate with new users
+
+In general, when reading forum posts about bluetooth audio using the typical microcontrollers, there is very little information. Many users are met with hostility and told to give up and find something else to do, which I think is a terrible way to help a newcomer grow. And I'm not giving up.
 
 # RN-52
 
