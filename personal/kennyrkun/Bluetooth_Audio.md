@@ -47,3 +47,10 @@ Similar products:
 The nRF52840 is a small and powerful Bluetooth module from Nordic Semiconductor. SparkFun has a wonderful looking development board for this chip.
 
 https://www.sparkfun.com/products/15025
+
+# Other resources
+- https://www.youtube.com/watch?v=afGxMfy7_0A
+- http://educ8s.tv/arduino-two-way-bluetooth-communication/
+- https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/
+- https://forum.arduino.cc/t/how-would-i-use-a-rn-52-module-to-play-music-from-my-iphone-to-my-car/549872/5
+- https://learn.sparkfun.com/tutorials/understanding-the-bc127-bluetooth-module
