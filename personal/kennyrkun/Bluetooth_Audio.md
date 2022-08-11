@@ -54,6 +54,19 @@ https://www.sparkfun.com/products/15025
 
 Though I can't tell if this is well suited for audio.
 
+# BC127
+
+Cedrus Libani / about 8 years ago /  1
+I can't figure out how to connect a mic to this. I got the Sparkfun electret microphone breakout and the mems microphone breakout , but the pins don't really match. The mic breakouts have VCC, GND, and AUD, whereas BC127 has MIC_RN, MIC_RP, and MIC_BIAS (and GND) which probably means the BC127 expects balanced audio input? Anyway, with VCC 3.3V, AUD connected to MIC_RP and GND connected to either MIC_RN or to GND, all I get is excruciating noise. Does anybody know this?
+Cedrus Libani / about 8 years ago /  1
+ok, maybe it was because I used 3v3 from an FTDI basic board to power the mic, because when I used a 1.5v battery it worked much better.
+Cedrus Libani / about 8 years ago /  1
+Hmm. I still only get good signal when I power the Mic and the BC127 from separate sources. Does anybody know how to hook up a SparkFun MEMS Microphone and the BC127 on a single battery?
+Cedrus Libani / about 7 years ago /  2
+OK solved it but I did have to upgrade firmware. Connect mic breakout GND to BC127 GND and to MIC-. Connect AUD to MIC+. Connect VCC to MIC_BIAS. Mic is now powered by same battery and there is less noise. MIC_BIAS cannot be set in Melody 5.0. I upgraded to Melody 5.7RC4. MIC_BIAS is set using command 'CODEC'.
+pedroserano / about 7 years ago /  1
+Thank you so much!!! I was getting horrendous noise on my microphone and your comment solved my problem. In retrospect it was a really stupid mistake, but in case anyone has this same problem, the noise coming across the line of the MIC (and speaker) came from the fact that I connected the mic GND straight to the arduino's GND through the breadboard, when in fact I should have connected it to the BC-127 breakout board GND instead.
+
 # Summary
 
 - Arduino is not suited for audio processing.
