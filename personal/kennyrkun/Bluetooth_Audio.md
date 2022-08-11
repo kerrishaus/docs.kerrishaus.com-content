@@ -67,6 +67,8 @@ OK solved it but I did have to upgrade firmware. Connect mic breakout GND to BC1
 pedroserano / about 7 years ago /  1
 Thank you so much!!! I was getting horrendous noise on my microphone and your comment solved my problem. In retrospect it was a really stupid mistake, but in case anyone has this same problem, the noise coming across the line of the MIC (and speaker) came from the fact that I connected the mic GND straight to the arduino's GND through the breadboard, when in fact I should have connected it to the BC-127 breakout board GND instead.
 
+You can configure the module to output in mono by adjusting the codec setting. The default codec setting is 0 0 1, with the third digit representing stereo/mono output. If you set that last integer to be zero, then the module will output in mono over the left channel output.
+
 # Summary
 
 - Arduino is not suited for audio processing.
