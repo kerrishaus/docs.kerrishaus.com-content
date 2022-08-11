@@ -41,7 +41,8 @@ RN-52 Related Links
 - http://www.jenrathbun.com/Electronics/rn52-bluetooth-adapter-microphone/
 
 Similar products:
-- https://www.sparkfun.com/products/retired/11927
+- https://www.sparkfun.com/products/retired/11927 (BC127 break out board, this looks like the ideal chip)
+- https://www.sparkfun.com/products/retired/11924 (features the same chip from the above link, but has other goodies)
 - https://www.sparkfun.com/products/14923 (bluetooth IoT SoC ?)
 - https://www.sparkfun.com/products/19475 (supports Apple iAP but is very expensive)
 
