@@ -30,7 +30,7 @@ In general, when reading forum posts about bluetooth audio using the typical mic
 
 # RN-52
 
-I've found a few good leads in the right direction so far. The most notable being the RN-52 breakout board from Sparkfun. On paper, this board is everything I need. It has a built in bluetooth module and connections for both a speaker and a microphone, and is setup for audio streaming out of the box. Unfortunately, the reviews for the board are very negative regarding it's audio quality for microphones, which is not good for us.
+I've found a few good leads in the right direction so far. The most notable being the RN-52 breakout board from Sparkfun. On paper, this board is everything I need. It has a built in bluetooth module and connections for both a speaker and a microphone, and is setup for audio streaming out of the box. Unfortunately, the reviews for the board are very negative regarding it's audio quality for microphones, which is not good for us. I think this chip is going to be the one I end up going with, and I will pair it with a microcontroller like an Arduino Nano or a Pi Zero.
 
 RN-52 Related Links
 - https://www.sparkfun.com/products/retired/12849
