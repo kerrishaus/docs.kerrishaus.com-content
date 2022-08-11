@@ -2,6 +2,8 @@
 
 Typically, when I'm out and about with my boys either on foot or in a vehicle, we use either phones or analog radios to communicate. In general, this works fine. But there are some big disadvantages to both cases, and so I'd like to develop a solution that covers most of (if not even all) of the drawbacks to using these devices.
 
+[__TOC__]
+
 ## Pros and Cons of each
 
 ### Phone Calls
@@ -50,6 +52,11 @@ The nRF52840 is a small and powerful Bluetooth module from Nordic Semiconductor.
 https://www.sparkfun.com/products/15025
 
 Though I can't tell if this is well suited for audio.
+
+# Summary
+
+- Arduino is not suited for audio processing.
+- The bluetooth module must support HSP.
 
 # Other resources
 - https://www.youtube.com/watch?v=afGxMfy7_0A
