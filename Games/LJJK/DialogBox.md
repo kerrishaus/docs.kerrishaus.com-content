@@ -4,13 +4,13 @@
 
 ## Methods
 
-### constructor(message, printSpeed = 50, printDelay = 400)
+### `constructor(message, printSpeed = 50, printDelay = 400)`
 `message` message  
 `printSpeed` default is 50.  
 `printDelay` default is 400.  
 
-### presentDialog
+### `presentDialog`
 Moves the dialog box on screen.
 
-### hideDialog
+### `hideDialog`
 Moves the dialog box off screen.

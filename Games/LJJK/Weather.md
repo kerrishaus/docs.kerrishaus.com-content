@@ -3,11 +3,11 @@
 
 ## Methods
 
-### startRain
+### `startRain`
 Starts a rain storm.
 
-### stopRain
+### `stopRain`
 Stops a rain storm.
 
-### lightning
+### `lightning`
 Blinds the user with lightning.

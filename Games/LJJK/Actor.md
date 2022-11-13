@@ -6,14 +6,14 @@ The Actor class represents characters, player or non-player.
 
 ## Methods
 
-### addSpriteSheet(name, frames)
+### `addSpriteSheet(name, frames)`
 `name` is the filename of the sprite, location in `textures/sprites/`.
 `frames` is the number of frames in the sheet.
 
-### removeSpriteSheet(name)
+### `removeSpriteSheet(name)`
 `name` is the name of the sprite as loaded previously.
 
-### setSpriteSheet(name)
+### `setSpriteSheet(name)`
 This will set the current spritesheet, provided it is already loaded.
 
 `name` is the name of the sprite as loaded previously.
