@@ -63,3 +63,9 @@ Nexus means you meet the requirements to be required to follow the tax code of a
 - Wyoming
 
 Some states may tax your business differently if your business is not based in that state.
+
+# Sources
+- taxjar.com
+  - Should you use billing address or shipping address when calculating sales tax?; Jennifer Dunn; May 9, 2016.
+  - Do sales made through a marketplace facilitator count towards my nexus threshold?; Lee Breslouer; Nov 1, 2021.
+- South Dakota v. Wayfair case
