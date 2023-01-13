@@ -61,3 +61,5 @@ Some states may tax your business differently if your business is not based in t
   - Should you use billing address or shipping address when calculating sales tax?; Jennifer Dunn; May 9, 2016.
   - Do sales made through a marketplace facilitator count towards my nexus threshold?; Lee Breslouer; Nov 1, 2021.
 - South Dakota v. Wayfair case
+- extension.okstate.edu
+  - E-Commerce and Sales Taxes: What You Collect Depends on Where You Ship; Brian Whitacre, Shannon Ferrell, J.C. Hobbs; Mar. 2017
