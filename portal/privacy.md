@@ -1,0 +1,3 @@
+- The Portal does not collect any personally identifiable information from you. 
+- The Portal does not sell or share data about any account with any third parties (excluding applicable governments when forced to) for any reason. 
+- The Portal collects information which is sometimes be tied to specific accounts or objects, such as page load frequency, page load time, and miscellaneous logs for internal metrics.
