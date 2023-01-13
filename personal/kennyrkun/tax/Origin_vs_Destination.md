@@ -2,10 +2,6 @@
 
 This document attempts to be a simple and straightforward guide to paying sales tax as a small business in the United States.
 
-## What is Nexus?
-
-Nexus means you meet the requirements to be required to follow the tax code of a given jurisdiction. Each state's requirements are different, but in general you will be considered to have nexus by having a presence in a state such as an office, a warehouse, an employee, ads, or others.
-
 ## Origin vs Destination Sales Tax
 
 **Origin State**: Pays tax based on where the order was placed. Sales tax should be charged based on the address of the business.
