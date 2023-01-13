@@ -1,13 +1,9 @@
-# Tax Information
-
-This document attempts to be a simple and straightforward guide to paying sales tax as a small business in the United States.
-
-## Origin vs Destination Sales Tax
+# Origin vs Destination Sales Tax
 
 **Origin State**: Pays tax based on where the order was placed. Sales tax should be charged based on the address of the business.
 **Destination State**: Pays tax based on where the buyer takes possession of the product. This means sales tax should generally be charged based on the shipping address. This location is also considered the point of sale.
 
-### Origin States
+## Origin States
 - Arizona
 - California*
 - Illinois
@@ -21,7 +17,7 @@ This document attempts to be a simple and straightforward guide to paying sales 
 
 \* In California, county and city taxes are origin based, but district taxes are destination based.
 
-### Destination States
+## Destination States
 - Alabama
 - Arkansas
 - Colorado
