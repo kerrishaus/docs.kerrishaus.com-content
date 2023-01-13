@@ -4,4 +4,5 @@ Nexus means you meet the requirements to be required to follow the tax code of a
 # Sources
 - shopify.com
   - Ecommerce Sales Tax: A Guide to Economic Nexus & Ecommerce; Jessica Wynne Lockhart; Jan 1, 2021
-- E-Commerce and Sales Taxes: What You Collect Depends on Where You Ship; Brian Whitacre, Shannon Ferrell, J.C. Hobbs; Mar. 2017
+- extension.okstate.edu
+  - E-Commerce and Sales Taxes: What You Collect Depends on Where You Ship; Brian Whitacre, Shannon Ferrell, J.C. Hobbs; Mar. 2017
