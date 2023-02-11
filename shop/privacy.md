@@ -1,1 +1,3 @@
-The Kerris Haus Shop requires the use of cookies to store cart data between page loads, and to use our payment partner's APIs.
+The Kerris Haus Shop uses cookies to keep establish sessions for users, and store cart data.
+
+The Kerris Haus Shop shares session information with the Kerris Haus Portal. See  [Kerris Haus Portal Privacy](https://docs.kerrishaus.com/portal/privacy)
