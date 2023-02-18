@@ -12,3 +12,4 @@
 - The Portal does use user data to make predictions for the user. These predications are calculated by Kerris Haus within the Portal application and are not shared with any third party for any reason.
   - The Portal uses data provided at will by the user in the Vehicles application to make predictions for fuel economy, daily distances, and service recommendations.
   - The Portal uses data provided at will by the user in the Finance application to make predictions about income and expenditures.
+- The Portal stores your email address, if provided.
