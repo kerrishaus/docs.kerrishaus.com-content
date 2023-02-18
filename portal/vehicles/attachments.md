@@ -1,4 +1,2 @@
 # Attachments to Vehicle Services
-You can attach files to each service you record for your vehicle. The attachments may be of any type, but have a maximum filesize of 100 megabytes.
-
-> Currently, only one file may be attached to a service at a time.
+You can attach files to your vehicle's service record. You can attach as many files as you want, but individual files must be less than 100 megabytes in size.
