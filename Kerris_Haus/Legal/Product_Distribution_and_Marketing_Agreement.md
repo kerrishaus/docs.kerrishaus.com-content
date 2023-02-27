@@ -7,3 +7,4 @@
 2. Creator has the right to change the terms of the agreement at any time with the consent of Seller. If Seller does not consent, Creator has the right to terminate the contract.
 3. Both Seller and Creator have the right to terminate the agreement at any time, for any reason, effective immediately.
 4. Seller is entitled to compensation of at least half of any profit generated from a product. Compensation is to be remitted no later than the last day of the month after the month in which a product was sold.
+5. Seller is responsible for all warranties related to Product(s) sold.
