@@ -80,3 +80,4 @@ You can configure the module to output in mono by adjusting the codec setting. T
 - https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/
 - https://forum.arduino.cc/t/how-would-i-use-a-rn-52-module-to-play-music-from-my-iphone-to-my-car/549872/5
 - https://learn.sparkfun.com/tutorials/understanding-the-bc127-bluetooth-module
+- https://www.tinypico.com <-- this guy might be enough to power the project
