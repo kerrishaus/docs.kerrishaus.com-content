@@ -24,19 +24,7 @@ static ip_address=192.168.0.10/24
 6. Install the packages `openbox`, `xserver-xorg`, `xprintidle`, and `chromium-browser`.
 7. Clone the [portal-rpi](https://git.kerrishaus.com/portal-rpi) to the kiosk user's home directory.
 8. Run `sudo python3 portal.py -install` to install the `portal-gui` and `portal` services.
-9. Open `/etc/xdg/openbox/autostart` for editing, and input the following:
-```
-# Disable any form of screen saver / screen blanking / power management
-xset s off
-xset s noblank
-xset -dpms
-
-# Start Chromium in kiosk mode
-sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
-sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
-chromium-browser --noerrdialogs --disable-infobars --disable-error-bubbles --ignore-certificate-errors --check-for-update-interval=31536000 --autoplay-policy=no-user-gesture-required --kiosk /home/pi/index.html"'https://portal.kerrishaus.com/login.php?kiosk=true'
-```
-10. Now, open `~/.bash_profile` and input the following:
+9. Now, open `~/.bash_profile` and input the following:
 `[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor`
 
 That should be all that's required to get up and running.
