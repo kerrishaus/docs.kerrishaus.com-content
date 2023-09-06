@@ -34,7 +34,7 @@ xset -dpms
 # Start Chromium in kiosk mode
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
 sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
-chromium-browser --noerrdialogs --disable-infobars --disable-error-bubbles --ignore-certificate-errors --check-for-update-interval=31536000 --autoplay-policy=no-user-gesture-required --kiosk /home/pi/index.html"'https://portal.kerrishaus.com'
+chromium-browser --noerrdialogs --disable-infobars --disable-error-bubbles --ignore-certificate-errors --check-for-update-interval=31536000 --autoplay-policy=no-user-gesture-required --kiosk /home/pi/index.html"'https://portal.kerrishaus.com/login.php?kiosk=true'
 ```
 10. Now, open `~/.bash_profile` and input the following:
 `[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor`
