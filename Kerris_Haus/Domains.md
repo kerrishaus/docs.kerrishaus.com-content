@@ -16,5 +16,3 @@
 |git.kerrishaus.com|Redirects to Kerris Haus GitHub projects|
 |portal.kerrishaus.com|Kerris Haus portal|
 |shop.kerrishaus.com|Kerris Haus Shop|
-|store.kerrishaus.com|Redirects to `shop.kerrishaus.com`|
-|calendar.kerrishaus.com|Redirects to `portal.kerrishaus.com/calendar`|
