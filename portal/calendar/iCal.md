@@ -1,5 +1,9 @@
-# iCal Compatibility
-You can share your calendar between other devices, services, or people using iCalendar.  
+# The Portal supports the iCal standard
+The iCal standard helps organise calendar data in a way that is useable by many different sytems, which may not be related to one another. The Portal calendar system supports this standard, allowing you to see your Portal events in other applications. As of writing, the Portal only supports *exporting* calendars. It cannot import and display Calendar data from other systems.
 
 # Exporting the Calendar
-How you import the calendar is different depending on where you want to use it, but to export it, simply open the [Sharing page](https://portal.kerrishaus.com/calendar/settings/sharing.php) of the calendar. Now, simply copy the link provided. You can navigate to this link directly to download the calendar as it is, or add the link as a subscription to another calendar service.
+1. From the main Calendar page, select one of your Calendars and open its settings page.
+2. From the calendar's settings page, click `Sharing Settings`.
+3. Copy the shareable iCal link.
+
+For instructions on how to import a Portal calendar into another application, refer that specific application's instructions.
