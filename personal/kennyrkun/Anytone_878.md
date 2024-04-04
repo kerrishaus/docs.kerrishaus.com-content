@@ -4,6 +4,7 @@ General notes
 
 ## Accessories
 - Kenwood SMKW1002 swivel belt clip fits without modification
+- BaofengTech BTECH-K1 APRS cable is compatible and works with this radio
 
 ## Radio Settings
 blah
