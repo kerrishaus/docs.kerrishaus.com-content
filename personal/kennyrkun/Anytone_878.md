@@ -15,7 +15,7 @@ System-wide settings
 This radio has the ability to detect the currently used CTCSS/DCS tone from received transmission.
 1. Bind a programmable key to "CDT Scan"
 2. Tune to the frequency/channel
-  - The frequency/channel you want to use must have a CDT tone set. It doesn't matter which one, it just has to be active.
+  - The frequency/channel you want to use must have a CDT tone set. It doesn't matter which one, it just has to be active. If no tone is set, you will see an "Rx CDT Not Open!" error.
 4. Press the key you bound to CDT Scan and the display will slowly scan through all the CDT codes for whichever type you've specified. This process is painfully slow.
 5. Begin transmitting on the device that you want to find the CDT tone of, and continue transmitting until the code is found.
 
