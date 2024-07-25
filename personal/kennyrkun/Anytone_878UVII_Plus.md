@@ -1,4 +1,4 @@
-# AnyTone 878
+# AnyTone 878UVII+
 General notes
 - Single VFO single receiver
 - When being used with a main channel and a sub-channel which are both analog or both digital, if either channel is receiving you will not be able to transmit on the opposite channel until the radio stops receiving. This can be rather irritating on some high-traffic channels.
