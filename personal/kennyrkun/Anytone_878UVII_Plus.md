@@ -6,8 +6,8 @@ General notes
   - You cannot speak on a 2nd channel if someone is speaking on the first.
 
 ## Accessories
-- Kenwood SMKW1002 swivel belt clip fits without modification
-- BaofengTech BTECH-K1 APRS cable is compatible and works with this radio
+- Kenwood SMKW1002 swivel belt clip can be screwed into the battery without modification.
+- BaofengTech BTECH-K1 APRS cable is compatible and works with this radio.
 - The radio will pair to AirPods with bluetooth.
 
 ## Radio Settings
