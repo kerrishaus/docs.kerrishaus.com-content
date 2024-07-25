@@ -23,10 +23,16 @@ This radio has the ability to detect the currently used CTCSS/DCS tone from rece
 Settings for individual channels
 
 ### Analog APRS
+#### Receiving
 "APRS Receive" setting options do the following:
 - off: will play any received audio including APRS data, will not decode or display information
-- on: will play any received audio including APRS data, will not decode or display information
-- on (mute): displays any received and decoded APRS messages on the display briefly. will not play any audio from the channel this is set on.
+- on: decodes and displays any received APRS packets, you can hear the audio.
+- on (mute): decodes and displays any received APRS packets. while this is on, all audio on the selected frequency is muted.
+
+Any APRS messages received on any channel will go into the APRS inbox in the menu, and can be retreived and viewed at any time.
+
+#### APRS Messaging
+This radio supports analog APRS messaging, which is very similar to DMR's SMS. You enter your destination callsign, then your message, and it is sent as an APRS packet. If the receiving radio is listening to an APRS channel, they will receive the message. Unfortunately, the radio does not have any smart features like reply or forward for messages. Instead, to reply you will have to enter the callsign and message of the receipient radio. The radios also have no notification for messages received via APRS, so you will have to check manually to see if they have been received.
 
 ### Radio ID
 - Radio ID is set per channel, not radio wide. Channels can have different Radio IDs set in codeplug, or manually on the radio. There is no way to apply a Radio ID to every channel automatically.
