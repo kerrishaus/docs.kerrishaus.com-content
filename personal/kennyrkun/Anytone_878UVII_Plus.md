@@ -13,6 +13,10 @@ General notes
 ## Radio Settings
 System-wide settings
 
+### Key Settings
+Like the Anytone 578, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
+- Emergency Alarm
+
 ### Tone Scanning
 This radio has the ability to detect the currently used CTCSS/DCS tone from received transmission.
 1. Bind a programmable key to "CDT Scan"
