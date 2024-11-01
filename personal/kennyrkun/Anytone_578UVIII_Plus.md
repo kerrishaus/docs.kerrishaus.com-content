@@ -2,6 +2,18 @@
 Like the Anytone 878, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
 - Emergency Alarm
 
+# Power Usage
+Using a red 7 function digital multimeter set to 5A, power measurements were as follows.
+- Idle, not receiving, screen on: 0.48A
+- Receiving: 0.5A
+
+| Power         | Digital       | Analog        |
+| ------------- | ------------- | ------------- |
+|Low|1.16A|1.56A|
+|Medium|2.26A|3.15A|
+|High|3.16A|5.84A|
+|Turbo|3.92A|6.57A|
+
 # Remote Head Mounting
 The 578 does not support remote head mounting. There is at least one community made product which attempts to do this, although it has some trouble. https://blaydefab.com/index.php/product/anytone-578-faceplate-relocation-kit/
 
