@@ -28,3 +28,32 @@ The following formula is used to calculate fuel economy:
 The resulting fuel economy is rounded to the nearest decimal place.
 
 Because it is not possible for the Portal to know how much fuel has been consumed between two particular records, nor how much fuel remains in the tank after a particular record, you will get the most accurate results if each fuel refill fills the tank. It doesn't matter what the level in the tank was before the refill, as long as it makes it to full. If you only partially fill the tank, the fuel economy prediction will not be accurate.
+
+## Oil Change Records
+Oil change records contain the following information:
+- Odometer (required)
+- Oil weight
+- Oil amount
+- Oil filter part number
+- Desired miles until next oil change
+- Date (formatted YYYY-mm-dd)
+- Attachments (images, receipts, etc)
+
+Oil change record data is used to help you plan when your next oil change needs to be done. The vehicle overview page will use your daily average mileage to determine how soon an oil change should occur, based on your desired miles to next oil change. By default, the oil change interval is 7,500 miles.
+
+## Generic
+Generic records containt the following information:
+- Odometer (required)
+- Date (formatted YYYY-mm-dd)
+- Type (required)
+  - Note
+  - Service
+  - Repair
+  - Issue
+  - Modification
+  - Upgrade
+- Title (required)
+- Notes
+- Attachments (images, receipts, etc)
+
+Aside from odometer, the information in this type of record is not used by the Portal for any calculations.
