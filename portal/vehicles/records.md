@@ -1,7 +1,7 @@
 # Vehicle Records
 Records allow you to track various actions taken on a particular vehicle. The data stored in records is used by the Portal to create statics such as average fuel economy, estimated oil change date, etc.
 
-[toc]
+[TOC]
 
 ## Odometer Records
 Odometer records help provide the Portal with information where there would usually be none, and allows for more accurate predictions to be made. For example, if you have a short commute to work, but take long trips often and only create fuel records, your average daily mileage will be skewed because the Portal has fewer date intervals to calculate miles driven. If you add daily or weekly odometer readings, the Portal will have more date intervals to use when calculating average daily mileage.
