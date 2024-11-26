@@ -17,6 +17,8 @@ Fuel records contain the following information:
 - Date (YYYY-mm-dd format)
 - Attachments (images, receipts, etc)
 
+This information is used together to calculate average fuel economy (in mpg and miles per tank.)
+
 With many fuel records, you will be able to see the lifetime fuel amount and cost for the vehicle, and average price per gallon. You will also be able to see how many times you've refuelled at a particular station, and what the lowest, highest, and average price is for that station.
 
 ### How does the Portal calculate fuel economy?
