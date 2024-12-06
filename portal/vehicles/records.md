@@ -1,5 +1,5 @@
 # Vehicle Records
-Records allow you to track various actions taken on a particular vehicle. The data stored in records is used by the Portal to create statics such as average fuel economy, estimated oil change date, etc.
+Records allow you to track various actions taken on a particular vehicle. The data stored in records is used by the Portal to create statics such as average fuel economy, estimated oil change date, etc. Most records allow attachments, which can be images, pdfs, or text files; videos are not allowed; there is no limit on how many files can be attached; files must be less than 100mb each.
 
 [TOC]
 
