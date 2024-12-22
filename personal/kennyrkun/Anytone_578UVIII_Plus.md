@@ -48,3 +48,6 @@ Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 moun
 |462.6 (GMRS)|1.427|
 |467.4 (GMRS)| 2.029|
 |469.2|2.077|
+
+## Cross-band repeat
+Repeating a DMR signal using analog cross band repeat does not work. It will capture and repeat, but receiving radios will not decode.
