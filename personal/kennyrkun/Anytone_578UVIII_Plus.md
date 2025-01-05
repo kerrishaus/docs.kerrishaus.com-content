@@ -34,20 +34,20 @@ The emergency alarm is activated manually using the alarm key function. See [Gen
 # Notes
 ## SWR on through glass antenna
 Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 mounted on the top of a tinted sunroof:
-|Freq (mhz)|SWR|
-|----------|---|
-|149.2|2.357|
-|151.9 (MURS)|1.450|
-|153.0 (MURS)|1.24|
-|157.8|1.974|
-|460.8|1.331|
-|477.0|1.138|
-|442.8|1.066|
-|430.2|1.34|
-|452.4|2.11|
-|462.6 (GMRS)|1.427|
-|467.4 (GMRS)| 2.029|
-|469.2|2.077|
+|Freq (mhz)  |SWR    |
+|------------|-------|
+|149.2       |2.357  |
+|151.9 (MURS)|1.450  |
+|153.0 (MURS)|1.24   |
+|157.8       |1.974  |
+|460.8       |1.331  |
+|477.0       |1.138  |
+|442.8       |1.066  |
+|430.2       |1.34   |
+|452.4       |2.11   |
+|462.6 (GMRS)|1.427  |
+|467.4 (GMRS)| 2.029 |
+|469.2       |2.077  |
 
 ## Cross-band repeat
 Repeating a DMR signal using analog cross band repeat does not work. It will capture and repeat, but receiving radios will not decode.
