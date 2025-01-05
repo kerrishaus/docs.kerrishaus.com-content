@@ -34,6 +34,7 @@ The emergency alarm is activated manually using the alarm key function. See [Gen
 # Notes
 ## SWR on through glass antenna
 Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 mounted on the top of a tinted sunroof:
+
 |Freq (mhz)  |SWR    |
 |------------|-------|
 |149.2       |2.357  |
