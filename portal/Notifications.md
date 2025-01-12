@@ -24,5 +24,5 @@ Once every minute, the Portal will contact the server for new notification data.
 ### Push Notifications (recommended)
 When given permission by the client and enabled, the Portal will wait to be contacted by the server for notification data. 
 
->[!NOTE]
->Once push notification delivery is enabled, it cannot be disabled from within the Portal. The user must revoke the push notification permission in the browser themselves. This is a browser limitation.
+> [!NOTE]
+> Once push notification delivery is enabled, it cannot be disabled from within the Portal. The user must revoke the push notification permission in the browser themselves. This is a browser limitation.
