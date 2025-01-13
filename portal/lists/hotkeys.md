@@ -1,0 +1,3 @@
+- <kbd>Tab</kbd>: Next item down in list. Moves to top if on last item in list.
+- <kbd>Shift</kbd> + <kbd>Tab</kbd>: Previous item up in list. Moves to bottom if on first item in list.
+- <kbd>Control</kbd> + <kbd>Delete</kbd>: Deletes the item currently being edited.
