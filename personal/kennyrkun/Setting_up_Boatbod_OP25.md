@@ -6,9 +6,9 @@ Clone the project and run ./install.sh.
 
 ## Running OP25
 In the folder `/op25/op25/gr-op25_repeater/apps`, I created a file called `metro.sh`, and use the following command:
-`./rx.py --nocrypt --args "rtl" --gains 'lna:36' -S 960000 -X -q 0-v 1 -2 -V -w -W dns_or_ip_of_host_you_want_to_listen_on -l http:0.0.0.0:8080 -T trunk.csv 2> stderr.2`
+`./rx.py --nocrypt --args "rtl" --gains 'lna:36' -S 960000 -X -q 0-v 1 -2 -V -w -W dns_or_ip_of_host_you_want_to_listen_on -l http:ip_dash_board_is_reachable_at:8080 -T trunk.csv 2> stderr.2`
 
-The important bits are really the dns or ip of the host you want to listen on, the IP and port you want the web dashboard available on, and the name of the trunk data file.
+The important bits are really the dns or ip of the host you want to listen on, the IP and port you want the web dashboard available on, and the name of the trunk data file. If you use 0.0.0.0 for the ip for -l, the web interface will only be available on the device running OP25. If you use the public address or internal address, like 192.168.0.x that OP25 is running on, any device which can reach the target will be able to use the web interface.
 
 ## Listening on another machine
 `vlc.exe --clock-jitter=500 --network-caching=0 --demux=rawaud --rawaud-channels 1 --rawaud-samplerate 8000 udp://@:23456`. It opened VLC and it just worked.
