@@ -13,6 +13,12 @@ General notes
 ## Radio Settings
 System-wide settings
 
+### Voice Func
+Settings regarding microphone and speaker for the radio.
+
+#### Key Tone Vol
+This setting changes not only the volume level of the button beeps, but also the volume level of things like the call alert, SMS notifications, and talk permit tone. Use this setting if you want to make the radio sounds quieter or louder than received audio.
+
 ### Key Settings
 Like the Anytone 578, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
 - Emergency Alarm
