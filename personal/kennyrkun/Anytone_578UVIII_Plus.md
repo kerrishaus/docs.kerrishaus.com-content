@@ -7,7 +7,7 @@ The 578 measurements are approximately: 7.4" faceplate to fan, 1.6' tall, and 5.
 # Power Usage
 Using a red 7 function digital multimeter set to 5A, power measurements were as follows.
 - Idle, not receiving, screen on: 0.48A ~6W
-- Receiving (single VFO): 0.5A ~6W
+- Receiving (single VFO) analog and playing it at full volume: 0.5A ~6W
 
 | Power         | Digital       | Analog        |
 | ------------- | ------------- | ------------- |
@@ -16,7 +16,7 @@ Using a red 7 function digital multimeter set to 5A, power measurements were as 
 |High           |3.16A ~40W     |5.84A ~70W     |
 |Turbo          |3.92A ~50W     |6.57A ~80W     |
 
-The screen cannot be turned off automatically or otherwise. The radio does have an auto-power off feature, but does not have a feature that automatically turns off the display after some time like the 878 does. This is uncool.
+The screen cannot be turned off, neither automatically nor manually. There is however an option to automatically turn the radio off, either after a fixed period of time after power-on or after a fixed period of inactivity.
 
 # Remote Head Mounting
 The 578 does not support remote head mounting. AnyTone offers a remote speaker/mic unit with a screen and battery which can be connected to the 578 either by Bluetooth or a cable. There is a community made kit designed to relocate the 578's faceplate, although there are some issues with the kit on the Plus model. [AnyTone 578 remote head kit](https://blaydefab.com/index.php/product/anytone-578-faceplate-relocation-kit/).
