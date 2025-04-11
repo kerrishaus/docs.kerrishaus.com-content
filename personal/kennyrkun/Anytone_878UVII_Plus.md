@@ -20,7 +20,7 @@ Settings regarding microphone and speaker for the radio.
 This setting changes not only the volume level of the button beeps, but also the volume level of things like the call alert, SMS notifications, and talk permit tone. Use this setting if you want to make the radio sounds quieter or louder than received audio.
 
 ### Key Settings
-Like the Anytone 578, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
+Like the Anytone 578, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. When one of these features is bound to a long press, any short press functionality for the key is disabled, even if a function is assigned. These features are:
 - Emergency Alarm
 
 ### Tone Scanning
