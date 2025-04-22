@@ -17,6 +17,23 @@ The argument `-w` enables Wireshark packet sharing. It usually requires argument
 - `-U` enabled the build in UDP audio receiver, which plays back to the default audio device.
 - `-d` sets the frequency tuning offset either negative or positive. expect to have to adjust this for maximum audio quality. Mine is set to -1100.
 
+## Run OP25 on startup
+```
+[Unit]
+Description=OP25 Decoder
+After=network.target
+
+[Service]
+Type=simple
+User=sdr
+Group=sdr
+WorkingDirectory=/home/sdr/op25/op25/gr-op25_repeater/apps
+ExecStart=/home/sdr/op25/op25/gr-op25_repeater/apps/op25.sh # you have to create this script. use the command given above.
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## Listening with VLC
 `vlc.exe --clock-jitter=500 --network-caching=0 --demux=rawaud --rawaud-channels 1 --rawaud-samplerate 8000 udp://@:23456`. It opened VLC and it just worked.
 
@@ -27,3 +44,23 @@ The argument `-w` enables Wireshark packet sharing. It usually requires argument
 2. Setup the bot: https://gist.github.com/kennyrkun/c5ffc136479e9a90a8a1ec0679dd899a based on https://github.com/ygorpontelo/discord_stream_bot/
 3. Run OP25 `./rx.py --n --args "rtl" --gains 'lna:36' -S 960000 -X --phase2-tdma -l http:192.168.0.9:8080 -T system.tsv -V --udp-player --audio-output hw:2,1`
    - `--audio-output` and `--udp-player` are the important changes.
+  
+### Run the Discord bot on startup
+```
+[Unit]
+Description=OP25 Restreaming Discord Bot
+Requires=op25.service network-online.target
+After=op25.service
+
+[Service]
+Type=simple
+User=sdr
+Group=sdr
+WorkingDirectory=/home/sdr/op25discord
+ExecStartPre=/bin/sleep 10 # delay starting until 10 seconds after OP25 has started, to give it time to set the output sample rate for the loopback device 
+ExecStart=python3 /home/sdr/op25discord/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
