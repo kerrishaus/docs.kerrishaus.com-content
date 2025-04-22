@@ -42,8 +42,7 @@ WantedBy=multi-user.target
    - Linux: https://askubuntu.com/questions/1497815/how-to-create-multiple-loopback-cards-using-alsa
      - Put `options snd-aloop index=2` in `/usr/share/alsa/alsa.conf` to retain the loopback device on reboot
 2. Setup the bot: https://gist.github.com/kennyrkun/c5ffc136479e9a90a8a1ec0679dd899a based on https://github.com/ygorpontelo/discord_stream_bot/
-3. Run OP25 `./rx.py --n --args "rtl" --gains 'lna:36' -S 960000 -X --phase2-tdma -l http:192.168.0.9:8080 -T system.tsv -V --udp-player --audio-output hw:2,1`
-   - `--audio-output` and `--udp-player` are the important changes.
+3. Run OP25 with `--udp-player` enabled and `--audio-output` set to the device that the bot will be listening to.
   
 ### Run the Discord bot on startup
 ```
