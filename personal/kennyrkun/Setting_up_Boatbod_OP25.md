@@ -28,7 +28,8 @@ Type=simple
 User=sdr
 Group=sdr
 WorkingDirectory=/home/sdr/op25/op25/gr-op25_repeater/apps
-ExecStart=/home/sdr/op25/op25/gr-op25_repeater/apps/op25.sh # you have to create this script. use the command given above.
+# you have to create the script below. use the command given above.
+ExecStart=/home/sdr/op25/op25/gr-op25_repeater/apps/op25.sh
 
 [Install]
 WantedBy=multi-user.target
@@ -56,7 +57,8 @@ Type=simple
 User=sdr
 Group=sdr
 WorkingDirectory=/home/sdr/op25discord
-ExecStartPre=/bin/sleep 10 # delay starting until 10 seconds after OP25 has started, to give it time to set the output sample rate for the loopback device 
+# delay starting until 10 seconds after OP25 has started, to give it time to set the output sample rate for the loopback device 
+ExecStartPre=/bin/sleep 10
 ExecStart=python3 /home/sdr/op25discord/bot.py
 Restart=always
 
