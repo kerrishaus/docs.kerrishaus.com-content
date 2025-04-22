@@ -1,11 +1,11 @@
-# Setting up Boatbod OP25 on RPI3B+
-This is a guide for setting up OP25 on an RPI3B+ and listening to that audio on a remote device. It can be very difficult to find this info initially, but the process is actually very simple and straightforward.
+# Using Boatbod OP25 on RPI3B+
+A compiled guide on setting up and listening to OP25 on a Raspberry Pi 3b+.
 
 ## Installing OP25
-Clone the project and run ./install.sh.
+Clone the project and run ./install.sh. Surprisngly, this usually works without issue.
 
 ## Running OP25
-In the folder `/op25/op25/gr-op25_repeater/apps`, I create a bash script with the following commands
+In the folder `/op25/op25/gr-op25_repeater/apps`, create a bash script with the following command:
 `./rx.py --n --args "rtl" --gains 'lna:36' -S 960000 -X -q 0 -v 1 --phase2-tdma -V -w -W dns_or_ip_of_host_you_want_to_listen_on -l http:ip_dash_board_is_reachable_at:8080 -T system.tsv`
 
 The argument `-l` specifies the address the webserver will listen on. To use the web interface from anywhere within the same network, use the local address of the device running OP25. To access the interface from outside of the local network, I recommend Nginx Proxy Manager with scheme of HTTP, SSL Forced, and an Access List. If you don't want to the web interface available anywhere other than the local device, use 0.0.0.0.
