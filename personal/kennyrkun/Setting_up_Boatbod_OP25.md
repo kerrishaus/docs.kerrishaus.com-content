@@ -15,7 +15,7 @@ The argument `-w` enables Wireshark packet sharing. It usually requires argument
 - `-v` sets the verbosity of debug messages, with 0 being the least and 9 being the most.
 - `-V` enables the vocoder.
 - `-U` enabled the build in UDP audio receiver, which plays back to the default audio device.
-- `-q` sets the frequency tuning offset either negative or positive. expect to have to adjust this for maximum audio quality. Mine is set to -500.
+- `-q` sets the frequency tuning offset either negative or positive. expect to have to adjust this for maximum audio quality. Mine is set to -700.
 
 ## Listening with VLC
 `vlc.exe --clock-jitter=500 --network-caching=0 --demux=rawaud --rawaud-channels 1 --rawaud-samplerate 8000 udp://@:23456`. It opened VLC and it just worked.
