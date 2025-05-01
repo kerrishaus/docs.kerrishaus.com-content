@@ -30,9 +30,6 @@ The 578 does not support remote head mounting. AnyTone offers a remote speaker/m
 - Only one airband channel can be received at a time.
 - AM Squelch can be set in Radio Set > AM Squelch (should update this to make sure and add CPS location)
 
-# Emergency Alarm
-The emergency alarm is activated manually using the alarm key function. See [General](#general) for more information about activation. In digital modes, when transmitting via the emergency alarm, receiving AnyTone radios will display "Alarm" on the call screen, but will not differentiate the transmission from any other type of call.
-
 # Notes
 ## SWR on through glass antenna
 Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 mounted on the top of a tinted sunroof:
