@@ -28,7 +28,7 @@ The 578 does not support remote head mounting. AnyTone offers a remote speaker/m
 
 # Airband Receive
 - Only one airband channel can be received at a time.
-- AM Squelch can be set in Radio Set > AM Squelch (should update this to make sure and add CPS location)
+- AM Squelch can be set in Settings > Radio Set > Other Func > AM Sq Level on the radio or Optional Setting > AM/FM in the CPS.
 
 # Notes
 ## SWR on through glass antenna
