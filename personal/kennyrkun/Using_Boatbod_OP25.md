@@ -66,3 +66,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
+# Useful References
+- [How to use the plots](https://forums.radioreference.com/threads/op25-constellation-plot.380935/#post-3041812)
+  - On the plots page, nothing will appear by default. You must first click on one of the plot type buttons in the control area.
