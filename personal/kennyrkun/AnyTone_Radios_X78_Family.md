@@ -11,3 +11,6 @@ The emergency alarm can be activated manually using the alarm key function, or a
 
 # Analog APRS Messaging
 Both the 878 and 578 support SMS messages through APRS. You must use the entire callsign including the SSID in order for the radio to receive and decode the message. If the SSID is ommitted, the radios will ignore the message.
+
+# Contacts
+A contact with the Ring set to Ring will play the triple beep caller after being heard, and Ring set to Online Alert will play the talk permit tone (if one is set) before playing audio from that contact.
