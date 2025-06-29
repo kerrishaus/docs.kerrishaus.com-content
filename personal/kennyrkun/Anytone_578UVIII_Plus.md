@@ -31,6 +31,9 @@ The 578 does not support remote head mounting. AnyTone offers a remote speaker/m
 - AM Squelch can be set in Settings > Radio Set > Other Func > AM Sq Level on the radio or Optional Setting > AM/FM in the CPS.
 
 # Notes
+## TDMA Adaptive
+Channels with TDMA Adaptive will receive on both timeslot 1 and timeslot 2. The equivalent feature on the 878 is "Slot suit."
+
 ## SWR on through glass antenna
 Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 mounted on the top of a tinted sunroof:
 
