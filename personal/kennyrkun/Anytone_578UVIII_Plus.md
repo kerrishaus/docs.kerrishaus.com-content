@@ -16,7 +16,7 @@ Using a red 7 function digital multimeter set to 5A, power measurements were as 
 |High           |3.16A ~40W     |5.84A ~70W     |
 |Turbo          |3.92A ~50W     |6.57A ~80W     |
 
-The screen cannot be turned off, neither automatically nor manually. There is however an option to automatically turn the radio off, either after a fixed period of time after power-on or after a fixed period of inactivity.
+The screen cannot be turned off, neither automatically nor manually. There is however an option to automatically turn the radio off, either after a fixed period of time after power-on or after a fixed period of inactivity. Screen brightness can not be automatically changed, only manually in the settings menu (or in the CPS).
 
 # Remote Head Mounting
 The 578 does not support remote head mounting. AnyTone offers a remote speaker/mic unit with a screen and battery which can be connected to the 578 either by Bluetooth or a cable. There is a community made kit designed to relocate the 578's faceplate, although there are some issues with the kit on the Plus model. [AnyTone 578 remote head kit](https://blaydefab.com/index.php/product/anytone-578-faceplate-relocation-kit/).
