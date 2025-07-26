@@ -12,7 +12,10 @@ For 878 radios running firmware version 3.04 or earlier, the radio ID is set per
 The emergency alarm can be activated manually using the alarm key function, or automatically using the "Work Alone" function. It will alternate between transmitting and receiving each for a configurable duration, and the alarm itself has a configurable duration (which cannot be infinite.) Emergency alarm can be configured to always use a particular channel, which can be different based on the mode of the current channel. In digital modes, when transmitting via the emergency alarm, receiving AnyTone radios will display "Alarm" on the call screen, but will not play a special sound or otherwise differentiate the transmission from any other type of call.
 
 # Analog APRS Messaging
-Both the 878 and 578 support SMS messages through APRS. You must use the entire callsign including the SSID in order for the radio to receive and decode the message. If the SSID is ommitted, the radios will ignore the message.
+Both the 878 and 578 support SMS messages through APRS. You must use the entire callsign including the SSID (the -7 or whatever) in order for the radio to receive and decode the message. If the SSID is ommitted, the radios will ignore the message.
 
 # Contacts
 A contact with `Call Alert` set to `Ring` will play the triple beep caller after being heard, and `Ring` set to `Online Alert` will play the talk permit tone (if one is set) before playing audio from that contact.
+
+# Tips for using the CPS
+- For sections that contain lists that don't allow you to use the "Insert (Paste)" or "Move up"/"Move down" actions in the context menu, you can move an item by using control + x or "Cut". Then paste the item where you need it.
