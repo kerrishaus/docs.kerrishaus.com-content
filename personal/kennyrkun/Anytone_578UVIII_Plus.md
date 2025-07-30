@@ -1,5 +1,5 @@
 # General
-Like the Anytone 878, certian key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
+Like the Anytone 878, certain key functions cannot be be bound to a long press and must be bound to a short press even though tough the function itself will activate with a long press. Additionally, when bound to a short press, they disable the ability to assign a different function to the long press. These features are:
 - Emergency Alarm
 
 The 578 measurements are approximately: 7.4" faceplate to fan, 1.6' tall, and 5.55' across the faceplate.
