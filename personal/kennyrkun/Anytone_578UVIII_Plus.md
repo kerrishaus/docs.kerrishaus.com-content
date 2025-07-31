@@ -53,7 +53,7 @@ Using a NanoVNA H4 running 4.3, I measured the following SWR on a Tram 1192 moun
 |469.2       |2.077  |
 
 ## Cross-band repeat
-Although the 578 will capture and repeat a digital signal using two analog channels, it will not be usable, even at the correct bandwidth. You can however repeat DMR into analog voice or analog voice into DMR by setting each channel to the appropriate type. If you use A+D on the receiving channel, it will receive both analog and digital and repeat them into whatever mode the transmitting channel is set to.
+Although the 578 will capture and repeat a digital signal using two analog channels, it will not be usable, even at the correct bandwidth. You can however repeat DMR into analog voice or analog voice into DMR by setting each channel to the appropriate type. You cannot use the A+D or D+A channel types in repeater mode.
 
 Notes:
 - Repeater mode persists through restarts.
