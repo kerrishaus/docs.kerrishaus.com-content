@@ -21,6 +21,12 @@ The screen cannot be turned off, neither automatically nor manually. There is ho
 # Remote Head Mounting
 The 578 does not support remote head mounting. AnyTone offers a remote speaker/mic unit with a screen and battery which can be connected to the 578 either by Bluetooth or a cable. There is a community made kit designed to relocate the 578's faceplate, although there are some issues with the kit on the Plus model. [AnyTone 578 remote head kit](https://blaydefab.com/index.php/product/anytone-578-faceplate-relocation-kit/).
 
+# BT-01 Accessory
+- When in Bluetooth mode, the speaker on the RF deck cannot be used; only the speaker on the handset is available. In cabled mode, either or both speakers can be used.
+- In cabled mode, Bluetooth settings are not available. Bluetooth can be enabled on the RF deck and then you can choose either BT or Cable mode when connecting.
+- The RF deck can be configured to turn off and on when the BT-01 is turned off and on, however, the BT-01 does not automatically turn on when the RF deck turns on. (Despite being able to detect when the radio is powered on, grrr)
+- Repeater Mode cannot be bound to a BT-01 hotkey.
+
 # Handheld Speaker Mic
 - The up and down buttons on the handheld speaker mic change the channel in the current zone up or down. The up and down buttons do not function if the microphone is unlocked. The functions of the up and down buttons cannot be reprogrammed.
 - The A/B rubber bits at the top of the speaker mic will illuminate for the corresponding VFO that is being transmitted on. The A/B rubber bits the left under the A/B sub channel button are constantly illuminated based on the current primary VFO. The lights on the speaker mic are very dim and virtually non-existent in sunlight.
