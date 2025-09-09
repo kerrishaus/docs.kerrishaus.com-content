@@ -19,3 +19,6 @@ A contact with `Call Alert` set to `Ring` will play the triple beep caller after
 
 # Tips for using the CPS
 - For sections that contain lists that don't allow you to use the "Insert (Paste)" or "Move up"/"Move down" actions in the context menu, you can move an item by using control + x or "Cut". Then paste the item where you need it.
+
+# Icons
+- Big red A at top of screen: auto power off indicator. Not shown when Bluetooth is enabled.
