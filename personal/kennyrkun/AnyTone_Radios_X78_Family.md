@@ -22,6 +22,6 @@ A contact with `Call Alert` set to `Ring` will play the triple beep caller after
 
 # Icons
 - Big red letter A: Auto power off indicator. Not shown when Bluetooth is enabled.
-- Big letter R:
+- Big letter R: Roaming indicator. Not shown when Bluetooth is enabled.
   - Red: Roaming is enabled and searching
   - Green: Roaming repeater found
