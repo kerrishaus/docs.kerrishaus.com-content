@@ -25,3 +25,10 @@ A contact with `Call Alert` set to `Ring` will play the triple beep caller after
 - Big letter R: Roaming indicator. Not shown when Bluetooth is enabled.
   - Red: Roaming is enabled and searching
   - Green: Roaming repeater found
+- Red speaker: Digital monitor enabled
+- Blue microphone icon: VOX enabled
+- Red square with white microphone in center: Recording enabled
+- Location pin/Satellite:
+  - Gray: GPS enabled, no lock
+  - Red/Green: GPS enabled, locked.
+- Red square with black diamond in center above channel name: Encryption enabled on channel
