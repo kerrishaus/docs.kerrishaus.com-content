@@ -8,6 +8,9 @@ Fortunately, you can store multiple radio IDs in the CPS. Channels can be set to
 
 For 878 radios running firmware version 3.04 or earlier, the radio ID is set per channel, and cannot be set globally. Firmware version 3.05 and later introduced "Master ID." The master ID must be set from the CPS. In the CPS, it can be enabled for all channels. Master ID cannot be set per channel in the CPS. From the front panel, master ID can be set per channel.
 
+# Mixed Mode Channels
+Mixed mode channels will receive both digital and analog. After receiving a transmission, the radio will transmit in the same mode that was received for the duration of the call hold time for that particular mode. After the hold time, the radio will transmit in the primary mode of the channel. In mixed mode, digital functions such as SMS receive, call alert, radio check, location, remote monitor will work regardless of primary channel type.
+
 # Emergency Alarm
 The emergency alarm can be activated manually using the alarm key function, or automatically using the "Work Alone" function. It will alternate between transmitting and receiving each for a configurable duration, and the alarm itself has a configurable duration (which cannot be infinite.) Emergency alarm can be configured to always use a particular channel, which can be different based on the mode of the current channel. In digital modes, when transmitting via the emergency alarm, receiving AnyTone radios will display "Alarm" on the call screen, but will not play a special sound or otherwise differentiate the transmission from any other type of call.
 
