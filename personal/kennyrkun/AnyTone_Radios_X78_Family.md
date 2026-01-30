@@ -17,8 +17,15 @@ The emergency alarm can be activated manually using the alarm key function, or a
 # Analog APRS Messaging
 Both the 878 and 578 support SMS messages through APRS. You must use the entire callsign including the SSID (the -7 or whatever) in order for the radio to receive and decode the message. If the SSID is ommitted, the radios will ignore the message.
 
+# Roaming
+## DMR Roam / Roaming Zones
+Roaming Zones apply only to DMR. Roaming Zones cannot be used for analog channels. Analog channels can be added to Roaming Zones, but shouldn't be because they won't do anything.
+
+## GPS Roaming
+Only 16 channels can be used for GPS roaming. GPS roaming channels can be digital or analog. Radius is generally in meters. Roaming toggle can't be set using a hotkey, it must be done manually in a menu. Go to Menu -> GPS -> Area SQL -> On/Off and to turn it on or off. In CPS, it can be enabled by default under Optional Setting -> GPS Ranging -> GPS Roaming.
+
 # Contacts
-A contact with `Call Alert` set to `Ring` will play the triple beep caller after being heard, and `Ring` set to `Online Alert` will play the talk permit tone (if one is set) before playing audio from that contact.
+A contact with `Call Alert` set to `Ring` will play the triple beep caller(what is this?) after being heard, and `Ring` set to `Online Alert` will play the talk permit tone (if one is set) before playing audio from that contact.
 
 # Tips for using the CPS
 - For sections that contain lists that don't allow you to use the "Insert (Paste)" or "Move up"/"Move down" actions in the context menu, you can move an item by using control + x or "Cut". Then paste the item where you need it.
