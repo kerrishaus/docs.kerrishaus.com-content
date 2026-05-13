@@ -42,3 +42,6 @@ A contact with `Call Alert` set to `Ring` will play the triple beep caller(what 
   - Gray: GPS enabled, no lock
   - Red/Green: GPS enabled, locked.
 - Red square with black diamond in center above channel name: Encryption enabled on channel
+
+# VFO Channels
+VFO channels can be accessed from the front panel by binding a button to VFO/MR mode. In VFO mode, using FPP, you can modify all the same settings you would be able to modify on a normal channel. VFO channel defaults can be edited in the CPS at the very bottom of the channel list as channels 3,999 and 4,000.
