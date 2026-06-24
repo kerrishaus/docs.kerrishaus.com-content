@@ -5,7 +5,6 @@
 |kerrishaus.com|Main domain|
 |kerrishouse.com||Redirects to `kerrishaus.com`|
 |kerrishaus.de|Redirects to `kerrishaus.com`|
-|supersuicidesociety.com|Used to various external projects.|
 
 # `kerrishaus.com` subdomains
 
