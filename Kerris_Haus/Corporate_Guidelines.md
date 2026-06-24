@@ -1,0 +1,1 @@
+1. In situations where a fee is assessed for an expedited request, after any applicable costs incurred by the request have been covered, the remainder of the fee shall be split evenly among the individuals who processed the request.
