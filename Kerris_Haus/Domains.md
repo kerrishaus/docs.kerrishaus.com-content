@@ -3,7 +3,7 @@
 |Domain|Purpose|
 |------|-----|
 |kerrishaus.com|Main domain|
-|kerrishouse.com||Redirects to `kerrishaus.com`|
+|kerrishouse.com|Redirects to `kerrishaus.com`|
 |kerrishaus.de|Redirects to `kerrishaus.com`|
 
 # `kerrishaus.com` subdomains
